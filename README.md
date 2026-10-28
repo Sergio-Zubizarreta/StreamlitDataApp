@@ -2,7 +2,7 @@
 
 An interactive Streamlit web app for exploring water quality data collected in Biscayne Bay, Miami, FL. Built for **CIS 3590 – Internship-Ready Software Development** (Prof. Gregory Reis) at FIU.
 
-**Live app:** [YOUR-APP-NAME.streamlit.app](https://YOUR-APP-NAME.streamlit.app) <!-- replace after deploying -->
+**Live app:** https://szubi-cis3590-data-app.streamlit.app/
 
 ## Purpose
 
@@ -10,10 +10,10 @@ The app lets users explore a real environmental dataset without writing any code
 
 ## Dataset
 
-**File:** `biscayneBay\_waterquality.csv` (included in this repository)
+**File:** `biscayneBay_waterquality.csv` (included in this repository)
 
 * Collected on **February 4, 2022**, between roughly 4:18 PM and 4:34 PM, in northern Biscayne Bay.
-* **941 rows** (one reading per second) and **69 columns**.
+* **942 rows** (one reading per second) and **69 columns**.
 * Data was recorded by an autonomous underwater vehicle carrying a water quality sensor. Each row includes:
 
   * **Location:** Latitude, Longitude
@@ -56,7 +56,7 @@ If `streamlit` isn't recognized as a command, use `python -m streamlit run main.
 
 ```
 ├── main.py                         # Streamlit app
-├── biscayneBay\_waterquality.csv    # Default dataset
+├── biscayneBay_waterquality.csv    # Default dataset
 ├── requirements.txt                # Python dependencies
 ├── pyproject.toml / uv.lock        # uv project files
 └── README.md
@@ -67,4 +67,3 @@ If `streamlit` isn't recognized as a command, use `python -m streamlit run main.
 * [Streamlit](https://streamlit.io/): web app framework
 * [Pandas](https://pandas.pydata.org/): data loading and manipulation
 * [Plotly Express](https://plotly.com/python/plotly-express/): interactive charts
-
